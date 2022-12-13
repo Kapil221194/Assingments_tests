@@ -11,7 +11,7 @@ public class Assignment5 {
 }
 
 class C {
-	int id;
+	static int id;
 	String name;
 
 	C(int id) {
@@ -24,7 +24,7 @@ class D extends C {
 	String type;
 
 	D() {
-		//super(id);
+		super(id);
 		this.color = "Red";
 	}
 
